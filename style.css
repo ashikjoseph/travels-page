@@ -1,0 +1,442 @@
+.scroll-space {
+  background-color: orange;
+  width: 100%;
+  height: 30px;
+}
+
+.scroll-content {
+  display: flex;
+  animation-name: scroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 13px;
+  color: white;
+}
+
+@keyframes scroll {
+  10% {
+    margin-left: 100%;
+  }
+
+  20% {
+    margin-left: 80%;
+  }
+
+  30% {
+    margin-left: 60%;
+  }
+
+  40% {
+    margin-left: 40%;
+  }
+
+  50% {
+    margin-left: 20%;
+  }
+
+  60% {
+    margin-left: -20%;
+  }
+
+  70% {
+    margin-left: -40%;
+  }
+
+  80% {
+    margin-left: -60%;
+  }
+
+  90% {
+    margin-left: -80%;
+  }
+
+  95% {
+    margin-left: -90%;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
+
+}
+
+
+.header-space {
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  background-color: aqua;
+}
+
+.logo {
+  height: 100px;
+  width: 120px;
+  margin-top: 50%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  backgr.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn:hover {
+  background-color: orange;
+  color: white;
+
+}
+
+.nav-call:hover {
+
+  transform: scale(1.05);
+  opacity: 0.7;
+
+}
+
+.home-quote {
+  margin-top: -500px;
+  color: white;
+}
+
+.home-icons {
+
+  margin-top: 100px;
+
+}
+
+.home-icons a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.icon-group2 {
+  margin-left: 1270px;
+  margin-top: -30px;
+}
+
+.desert-safari1 {
+  margin-top: 200px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.01);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-row1 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.gallery-row2 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.tour-button {
+  margin-left: 590px;
+}
+
+.tour-button:hover {
+  opacity: 0.7;
+}
+
+.desert-offer {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://i.pinimg.com/originals/1d/88/00/1d8800c8396f78f3d7cd9cc1702dd1eb.jpg);
+  width: 75%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.offer-part1 {
+  margin-top: 60px;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+  border-radius: 20px;
+  background-image: url(https://thedesertsafariindubai.com/wp-content/uploads/2023/04/dubai-quad-bike-ride-ticket.jpg);
+}
+
+.offer-part1 button {
+  float: left;
+}
+
+.offer-part1:hover {
+  transform: scale(1.03);
+}
+
+.bike-button:hover {
+  animation: vibrate 1s;
+  opacity: 3;
+  padding: 2px;
+}
+
+@keyframes vibrate {
+  10% {
+    transform: rotate(1deg);
+  }
+
+  20% {
+    transform: rotate(-1deg);
+  }
+}
+
+.offer-part2 {
+  margin-top: 60px;
+  width: 500px;
+  height: 400px;
+}
+
+.city-tour {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.city-view {
+  margin-top: -30px;
+  padding: 150px;
+}
+
+.city-content {
+  margin-top: -100px;
+  margin-left: -600px;
+}
+
+.dhow-cruise2 {
+  width: 350px;
+}
+
+.dhow-cruise2 img {
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
+  margin-left: -70px;
+}
+
+.dhow-cruise2:hover {
+  transform: scale(1.1);
+}
+
+.dhow-cruise {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dhow {
+  height: 400px;
+  width: 700px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dhow-cruise3 {
+  width: 500px;
+  margin-left: 70px;
+}
+
+.dhow-cruise1 {
+  margin-left: 20px;
+  width: 500px;
+}
+
+.sail-button:hover {
+  opacity: 0.7;
+}
+
+.review {
+  margin: auto;
+  padding: 100px;
+  height: 400px;
+  width: 70%;
+  text-align: center;
+  margin-top: -100px;
+
+}
+
+.review-image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+}
+
+.review-image {
+  margin: auto;
+  margin-top: -100px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-button:hover {
+  opacity: 0.7;
+}
+
+.tours-last {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.ex-tours {
+  margin-top: 150px;
+}
+
+.last-email {
+
+  display: flex;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  height: 300px;
+  width: 100%;
+  padding: 50px;
+  background-color: black
+}
+
+.icon-last {
+  font-size: 50px;
+}
+
+.footer-page {
+  background-color: orange;
+  text-align: center;
+  height: 50px;
+}
+
+.up-arrow {
+  float: right;
+  margin-top: -30px;
+  margin-right: 30px;
+  font-size: 25px;
+  background-color: yellow;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.subscribe-button:hover {
+  transform: scale(1.01);
+}
+
+.customer-call:hover {
+  transform: scale(1.01);
+  opacity: 0.8;
+}
+
+.customer-mail:hover {
+  transform: scale(1.01);
+  opacity: 0.8;
+}
+
+.offer-part2 {
+  animation: move 3s;
+  
+  animation-direction: reverse;
+  animation-iteration-count: 1;
+}
+
+@keyframes move {
+  50% {
+    margin-left: 200px;
+  }
+  100% {
+    margin-left: -120px;
+  }
+}
+
+.follow:hover{
+  opacity: 0.7;
+}
+.icon-last :hover{
+  opacity: 0.5;
+}
+
+.explor-button:hover{
+  opacity: 0.7;
+}
+
